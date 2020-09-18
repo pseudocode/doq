@@ -201,7 +201,7 @@ int main(int argc, char **argv) {
     }
   }
 
-  fprintf(stdout, "<html><head><meta charset=\"utf-8\"><style>");
+  fprintf(stdout, "<!DOCTYPE html>\n<html><head><meta charset=\"utf-8\"><style>");
   if (css) {
     write_fp(stdout, css);
   } else {
