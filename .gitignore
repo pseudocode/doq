@@ -1,2 +1,4 @@
 *.o
 doq
+ditherpng
+.DS_Store
